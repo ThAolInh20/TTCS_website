@@ -1,0 +1,60 @@
+body{
+    background-image: url('anh_sudung/bg.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    border-radius: 15px;
+    display: flex;
+    height: 100px;
+    background-color: rgb(170, 246, 246);
+}
+#logo {
+    width: 100px; /* Đặt kích thước của hình ảnh */
+    height: 100px;
+    overflow: hidden; /* Để giữ hình ảnh trong hình tròn */
+    border-radius: 50%; /* Thiết lập độ cong của góc thành 50% để tạo hình tròn */
+}
+
+#logo img {
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy phần tử cha (#logo) */
+    height: auto; /* Duy trì tỷ lệ khung hình */
+    display: block; /* Loại bỏ khoảng trắng dưới ảnh */
+}
+#TenCT {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#TenCT p{
+    line-height: 1em;
+    font-size: 30px;
+    color: rgb(133, 127, 255);
+}
+body nav ul{
+    border-radius: 20px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    padding: 30px;
+    margin: 0px;
+    position: relative;
+    background-color:  rgb(91, 114, 239);
+    transition: background-color 0.5s ease-in-out ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+}
+nav ul li:hover{
+    background-color: rgb(219, 233, 246);
+}
+nav ul li:hover a{
+    color: rgb(91, 114, 239);
+}
