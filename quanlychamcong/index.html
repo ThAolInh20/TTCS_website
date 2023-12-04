@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../diemdanh/style.css">
+    <link rel="stylesheet" href="../stylechung.css">    
 </head>
 <body>
-    
+    <header>
+        <div id="logo">
+            <img src="../anh_sudung/logo.png" alt="">
+        </div>
+        <div id="TenCT">
+            <p>Phần mềm quản lý điểm danh và chấm công</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../trangchu/index.html">Trang chủ</a></li>
+            <li><a href="../diemdanh_chamcong/diemdanh.html">Điểm danh</a></li>
+            <li><a href="../quanlyca/index.html">Quản lý ca làm việc</a></li>
+            <li><a href="../quanlynhanvien/index.html">Quản lý nhân viên</a></li>
+            <li><a href="../diemdanh_chamcong/chamcong.html">Quản lý chấm công</a></li>
+         </ul>    
+    </nav>
+    <section>
+        <table border="1">
+            <tr>
+                <td>Mã nhân viên</td>
+                <td>Ten nhân viên</td>
+                <td>Thời gian chấm công</td>
+                <td>Trạng thái chấm công</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>nam</td>
+                <td>20/01/2003</td>
+                <td>Đã chấm công</td>
+                <td><a href="#" id="xacnhan_chamcong">Chấm công</a>
+                    <script src="chamcong.js"></script>
+                </td>
+                <td><a href="#" id="xacnhan_xoa">Xóa</a>
+                    <script src="../diemdanh_chamcong/xoa.js"></script>
+                    </td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+
+    </footer>
 </body>
 </html>

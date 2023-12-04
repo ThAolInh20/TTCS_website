@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../diemdanh/style.css">
+    <link rel="stylesheet" href="../stylechung.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="../anh_sudung/logo.png" alt="">
+        </div>
+        <div id="TenCT">
+            <p>Phần mềm quản lý điểm danh và chấm công</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../trangchu/index.html">Trang chủ</a></li>
+            <li><a href="../diemdanh_chamcong/diemdanh.html">Điểm danh</a></li>
+            <li><a href="../quanlyca/index.html">Quản lý ca làm việc</a></li>
+            <li><a href="../quanlynhanvien/index.html">Quản lý nhân viên</a></li>
+            <li><a href="../diemdanh_chamcong/chamcong.html">Quản lý chấm công</a></li>
+         </ul>   
+    </nav>
+    <section>
+        <form action="">
+            <table border="1">
+                <tr>
+                    <td>
+                        <label for="TenCa">Tên ca:</label>
+                    </td>
+                    <td>
+                        <input type="text"  name="TenCa" id="TenCa" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="NgayBatDau">Ngày bắt đầu:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="NgayBatDau" id="NgayBatDau">
+                    </td>
+                </tr>
+                <tr>
+                 
+                    <td>
+                        <label for="ThoiGianBatDau">Bắt đầu</label>
+                    </td>
+                    <td>
+                        <input type="time" name="ThoiGianBatDau" id="ThoiGianBatDau" >
+                    </td>
+                </tr>
+                <tr>
+                 
+                    <td>
+                        <label for="ThoiGianKetThuc">Kết thúc</label>
+                    </td>
+                    <td>
+                        <input type="time" name="ThoiGianKetThuc" id="ThoiGianKetThuc" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="SoLuong_Max">Số lượng max:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="SoLuong_Max" id="SoLuong_Max" value="40">
+                    </td>
+                </tr>
+                <tr  >
+                    <td colspan="2" align="center">
+                        <button type="submit" id="tao">Tạo</button>
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                              // Lấy tham chiếu đến nút tạo
+                              var nutTao = document.getElementById('tao');
+                        
+                              // Thêm sự kiện click vào nút
+                              nutTao.addEventListener('click', function() {
+                                // Hiển thị hộp thoại alert khi nút được nhấp
+                                alert('Tạo thành công!');
+                              });
+                            });
+                          </script>
+                          <a href="..//quanlyca/index.html"><button type="button" >Hủy</button></a>
+                        
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../diemdanh/style.css">
+    <link rel="stylesheet" href="../stylechung.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="../anh_sudung/logo.png" alt="">
+        </div>
+        <div id="TenCT">
+            <p>Phần mềm quản lý điểm danh và chấm công</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../trangchu/index.html">Trang chủ</a></li>
+            <li><a href="../diemdanh_chamcong/diemdanh.html">Điểm danh</a></li>
+            <li><a href="../quanlyca/index.html">Quản lý ca làm việc</a></li>
+            <li><a href="../quanlynhanvien/index.html">Quản lý nhân viên</a></li>
+            <li><a href="../diemdanh_chamcong/chamcong.html">Quản lý chấm công</a></li>
+         </ul>   
+    </nav>
+    <section>
+        <form action="">
+            <table border="1">
+                <tr>
+                    <td>
+                        <label for="Anh">Ảnh:</label>
+                    </td>
+                    <td>
+                        <input type="image" readonly name="Anh" id="Anh" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="TenNhanVien">Tên nhân viên: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="TenNhanVien" id="TenNhanVien" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ChucVu">Chức vụ: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="ChucVu" id="ChucVu">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ThamNien">Thâm niên: </label>
+                    </td>
+                    <td>
+                        <input type="text " name="ThamNien" id="ThamNien" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Email">Email: </label>
+                        
+                    </td>
+                    <td>
+                        <input type="text" name="Email" id="Email" > 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="SDT">Số điện thoại: </label>
+                        
+                    </td>
+                    <td>
+                        <input type="text" name="SDT" id="SDT" > 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Tuoi">Tuổi : </label>
+                        
+                    </td>
+                    <td>
+                        <input type="number" name="Tuoi" id="Tuoi" > 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="DiaChi">Địa chỉ : </label>
+                        
+                    </td>
+                    <td>
+                        <input type="text" name="DiaChi" id="DiaChi" > 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="STK">STK : </label>
+                        
+                    </td>
+                    <td>
+                        <input type="text" name="STK" id="STK"  > 
+                    </td>
+                </tr>
+                <tr  >
+                    <td colspan="2" align="center">
+                        <button type="submit" id="tao">Tạo</button>
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                              // Lấy tham chiếu đến nút tạo
+                              var nutTao = document.getElementById('tao');
+                        
+                              // Thêm sự kiện click vào nút
+                              nutTao.addEventListener('click', function() {
+                                // Hiển thị hộp thoại alert khi nút được nhấp
+                                alert('Tạo thành công!');
+                              });
+                            });
+                          </script>
+                          <a href="../quanlynhanvien/index.html"><button type="button" >Hủy</button></a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>

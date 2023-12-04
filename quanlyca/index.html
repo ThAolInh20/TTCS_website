@@ -4,8 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../stylechung.css">   
+    <link rel="stylesheet" href="../diemdanh/style.css">  
+    <link rel="stylesheet" href="style.css">   
 </head>
 <body>
-    
+    <header>
+        <div id="logo">
+            <img src="../anh_sudung/logo.png" alt="">
+        </div>
+        <div id="TenCT">
+            <p>Phần mềm quản lý điểm danh và chấm công</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../trangchu/index.html">Trang chủ</a></li>
+            <li><a href="../diemdanh_chamcong/diemdanh.html">Điểm danh</a></li>
+            <li><a href="../quanlyca/index.html">Quản lý ca làm việc</a></li>
+            <li><a href="../quanlynhanvien/index.html">Quản lý nhân viên</a></li>
+            <li><a href="../diemdanh_chamcong/chamcong.html">Quản lý chấm công</a></li>
+         </ul>    
+    </nav>
+    <section>
+        <table border="1">
+            <tr>
+                <th>Mã ca</th>
+                <th>Tên ca</th>
+                <th>Bắt đầu</th>
+                <th>Kết thúc</th>
+                <th>Ngày làm việc</th>
+                <th>Số lượng max</th>
+            </tr>
+            
+            <tr>
+                <td class="ThongTinCa" id="MaCa">  1</td>
+                <td class="ThongTinCa" id="TenCa">1</td>
+                <td class="ThongTinCa" id="Bắt đầu">1</td>
+                <td class="ThongTinCa" id="Kết thúc">1</td>
+                <td class="ThongTinCa" id="NgayLamViec">1</td>
+                <td class="ThongTinCa" id="SoLuong_Max">1</td>
+                <td><a href="suaca.html">Sửa</a></td>
+                <td><a href="#" id="xacnhan_xoa">Xóa</a>
+                    <script src="../diemdanh_chamcong/xoa.js"></script>
+                </td>
+            </tr>
+        </table>
+        <div class="them">
+            <a href="themca.html"><button type="button">Thêm</button></a>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
 </body>
 </html>

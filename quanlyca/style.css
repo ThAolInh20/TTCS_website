@@ -1,0 +1,12 @@
+section{
+    display: grid;
+}
+section .them{
+    display: grid;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+section table tr #MaCa:hover{
+    background-color: bisque;
+}
