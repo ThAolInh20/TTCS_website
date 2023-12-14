@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..//stylechung.css">  
+    <link rel="stylesheet" href="style.css">  
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="../anh_sudung/logo.png" alt="">
+        </div>
+        <div id="TenCT">
+            <p>Phần mềm quản lý điểm danh và chấm công</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../trangchu/index.html">Trang chủ</a></li>
+            <li><a href="../quanlyca/index.html">Điểm danh và chấm công</a></li>
+            <li><a href="../quanlyca/index.html">Quản lý ca làm việc</a></li>
+            <li><a href="../quanlynhanvien/index.html">Quản lý nhân viên</a></li>
+         </ul>   
+    </nav>
+    <section>
+        <table>
+            <tr >
+                <td colspan="5" style="font-size: 17px;">
+                    Thông tin các nhân viên làm việc trong ca
+                </td>
+            </tr>
+            <tr>
+                <td>Mã ca:C001</td>
+            </tr>
+            <tr>
+                <td>Tên ca:</td>
+            </tr><tr>
+                <td>Ngày làm việc</td>
+            </tr>
+            <tr>
+                <td>Thời gian Bắt đầu:</td>
+            </tr>
+            <tr>
+                <td>Thời gian kết thúc:</td>
+            </tr>
+            <tr>
+                <td>Số lượng:</td>
+            </tr>
+        </table>
+        <table >
+            <tr>
+                <td>Mã nhân viên</td>
+                <td>Tên nhân viên</td>
+                <td>Thời gian điểm danh</td>
+                <td>Trạng thái điểm danh</td>
+                <td>Thời gian chấm công</td>
+                <td>Trạng thái chấm công</td>
+            </tr>
+            <tr>
+                <td >
+                    <a href="../quanlyca/CacCaNV.html">N001</a>
+                </td>
+                <td>NGuyễn Văn Nam</td>
+                <td>7:00 20/01/2003</td>
+                <td>Đã điểm danh</td>
+                <td>11:00 20/01/2003</td>
+                <td>Đã chấm công</td>
+                <td><a href="#" id="xacnhan_diemdanh">Điểm danh</a>
+                    
+                </td>
+                <td><a href="#" id="xacnhan_chamcong">Chấm công</a>
+                    
+                </td>
+                <td>
+                    <a href="#" class="xacnhan_xoa" onclick="confirmDelete()">Xóa</a>
+                </td>       
+            </tr>   
+            <tr>
+                <tr>
+                    <td >
+                        <a href="../quanlyca/CacCaNV.html">N001</a>
+                    </td>
+                    <td>NGuyễn Văn Nam</td>
+                    <td>7:00 20/01/2003</td>
+                    <td>Đã điểm danh</td>
+                    <td>11:00 20/01/2003</td>
+                    <td>Đã chấm công</td>
+                    <td><a href="#" id="xacnhan_diemdanh">Điểm danh</a>
+                        
+                    </td>
+                    <td><a href="#" id="xacnhan_chamcong">Chấm công</a>
+                        
+                    </td>
+                    <td>
+                        <a href="#" class="xacnhan_xoa" onclick="confirmDelete()">Xóa</a>
+                    </td>       
+                </tr>   
+                <tr>
+                    <tr>
+                        <td >
+                            <a href="../quanlyca/CacCaNV.html">N001</a>
+                        </td>
+                        <td>NGuyễn Văn Nam</td>
+                        <td>7:00 20/01/2003</td>
+                        <td>Đã điểm danh</td>
+                        <td>11:00 20/01/2003</td>
+                        <td>Đã chấm công</td>
+                        <td><a href="#" id="xacnhan_diemdanh">Điểm danh</a>
+                            
+                        </td>
+                        <td><a href="#" id="xacnhan_chamcong">Chấm công</a>
+                            
+                        </td>
+                        <td>
+                            <a href="#" class="xacnhan_xoa" onclick="confirmDelete()">Xóa</a>
+                        </td>       
+                    </tr>   
+                    <tr>
+                        <tr>
+                            <td >
+                                <a href="../quanlyca/CacCaNV.html">N001</a>
+                            </td>
+                            <td>NGuyễn Văn Nam</td>
+                            <td>7:00 20/01/2003</td>
+                            <td>Đã điểm danh</td>
+                            <td>11:00 20/01/2003</td>
+                            <td>Đã chấm công</td>
+                            <td><a href="#" id="xacnhan_diemdanh">Điểm danh</a>
+                                
+                            </td>
+                            <td><a href="#" id="xacnhan_chamcong">Chấm công</a>
+                                
+                            </td>
+                            <td>
+                                <a href="#" class="xacnhan_xoa" onclick="confirmDelete()">Xóa</a>
+                            </td>       
+                        </tr>   
+                        <tr>
+                            <tr>
+                                <td >
+                                    <a href="../quanlyca/CacCaNV.html">N001</a>
+                                </td>
+                                <td>NGuyễn Văn Nam</td>
+                                <td>7:00 20/01/2003</td>
+                                <td>Đã điểm danh</td>
+                                <td>11:00 20/01/2003</td>
+                                <td>Đã chấm công</td>
+                                <td><a href="#" id="xacnhan_diemdanh">Điểm danh</a>
+                                    
+                                </td>
+                                <td><a href="#" id="xacnhan_chamcong">Chấm công</a>
+                                    
+                                </td>
+                                <td>
+                                    <a href="#" class="xacnhan_xoa" onclick="confirmDelete()">Xóa</a>
+                                </td>       
+                            </tr>   
+                            <tr>
+                <td>
+                    <a href="../quanlyca/them_nv_vaoca.html"><button>Thêm nv</button></a>
+                </td>
+            </tr> 
+        </table>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>

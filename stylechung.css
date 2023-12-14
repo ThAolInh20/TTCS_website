@@ -58,3 +58,14 @@ nav ul li:hover{
 nav ul li:hover a{
     color: rgb(91, 114, 239);
 }
+section{
+    display: flex;justify-content: center;
+    align-items: center;
+}
+section table{
+    border: 1px black solid;
+    background-color: aliceblue;
+}
+section table td{
+    border: 1px black solid;
+}
